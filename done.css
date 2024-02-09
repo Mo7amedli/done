@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+body{
+  background-image: url(cool-wavy-abstract-gradient_53876-93826.avif);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+img{
+position: absolute;
+left: 40%;
+top: 30px;
+}
+@media (max-width:500px){
+  img{
+    position: absolute;
+left: 10%;
+top: 30px;
+
+  }
+}
+  
+
+.done{
+  text-align: center;
+  margin-top: 400px;
+}
+h2{
+  border: thick;
+  color: white;
+}
+h3{
+margin: 30px;
+  color: white;
+}
+p{
+  margin: 10px;
+}
